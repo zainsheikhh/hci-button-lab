@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+
+#actionBtn {
+    padding: 10px 20px;
+    border: 3px solid #007bff;
+    background: white;
+    cursor: pointer;
+}
+
+
+#actionBtn:hover {
+    background-color: #e0e0e0;
+}
+
+#status {
+    margin-top: 10px;
+    border: 3px solid #28a745;
+    padding: 10px;
+    min-height: 20px;
+}
+
+
+.click-feedback {
+    background-color: #ffc107;
+    transform: scale(0.95);
+}
+
+.constrained {
+    border-color: #dc3545 !important;
+}
+
+.disabled-signifier {
+    background-color: #6f42c1;
+    color: white;
+    opacity: 0.7;
+}
